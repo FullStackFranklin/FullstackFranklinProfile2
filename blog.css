@@ -1,0 +1,14 @@
+body {
+    background: salmon;
+}
+h1 {
+    text-align: center;
+}
+  .blogimg {
+      border-radius: 15px;
+      display: inline-block;
+      text-align: center;
+      border-style: double;
+      border-color: indigo;
+      margin: 25px 15px;
+  }

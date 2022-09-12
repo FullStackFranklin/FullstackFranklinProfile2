@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: paleturquoise;
+}
+nav
+ {
+width: 100%;
+overflow: auto;
+background: purple;
+ }
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 0 250px;
+}
+
+ li {
+float: right;
+ }
+
+ li a {
+width: 100px;
+float: right;
+text-align: center;
+display: block;
+text-decoration: none;
+padding: 40px 20px;
+color: peru;
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ li a:hover {
+     background: lightsalmon;
+     text-transform: uppercase;
+ }
+ .mjfportfoliologo img {
+position: absolute;
+margin-top: 5px;
+margin-left: 120px;
+border-radius: 45%;
+width: 125px;
+ }
+ #About {
+margin-bottom: 30px;
+padding: 40px;
+background-color: rgb(235, 132, 132);
+font-family: fantasy;
+ }
+ #About p {
+     text-align: left;
+     display: inline-block;
+     vertical-align:top;
+ }
+
+ #Projects {
+    margin-bottom: 20px;
+    padding: 80px;
+    background-color: rgb(187, 171, 171);
+    font-family: fantasy;
+ }
+ #Contact {
+    margin-bottom: 30px;
+    padding: 80px;
+    background-color: rgb(168, 243, 208);
+    font-family: fantasy;
+ }
+ .Horiseon img {
+  width: 900px;
+  height: 700px;
+ }
+.madlib img  {
+width: 400px;
+height: 200px;
+    
+}
+.foodie img {
+    padding: 30px;
+    width: 550px;
+    height: 300px;
+}
+
+.btt {
+    font-size: 30px;
+    text-align: center;
+    border: 5px double blue;
+}
+.btt a {
+    color: rgb(107, 47, 62);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+

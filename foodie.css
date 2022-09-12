@@ -1,0 +1,65 @@
+.header {
+    background-size: cover;
+    text-align: center;
+    list-style-type: none;
+    background-image: linear-gradient(yellow, red, orange);
+   
+        }
+    .header a:hover{
+      background-color: grey;
+      }
+      
+     li {
+        display: inline-block;
+        font-size: 30px;
+        padding: 50px;
+        }
+    
+    .center {
+        color: White;
+        text-align: center;
+        padding: 10px;
+        background: rgba(0,0,0,0.5);
+        }
+    .images{
+      background-color: yellow;
+      background-size: cover;
+      }
+      
+    p { border: 3px outset powderblue;
+        }
+   
+    h3 {
+        background-color: blueviolet; 
+        text-align: center;
+        font-size: 30px;
+    }
+    .glow {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px white 0 0 20px white, 0 0 30px #FF9966, 0 0 40px #FF9966, 0 0 50px #FF9966, 0 0 60px #FF9966, 0 0 70px #FF9966;
+  }
+  
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px #FFA64D, 0 0 40px #FFA64D, 0 0 50px #FFA64D, 0 0 60px #FFA64D, 0 0 70px #FFA64D, 0 0 80px #FFA64D;
+  }
+    
+    [href] {
+        Color: blue;
+        font-size: 20px;
+        text-align: center;
+        padding: 25px;
+    }
+     
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+   
